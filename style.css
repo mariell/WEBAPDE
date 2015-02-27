@@ -1,0 +1,128 @@
+body{
+	background-color: #FDFBCA;
+	font: 12px "Trebuchet MS", Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+/*HEADERS AND FOOTERS*/
+#Header{
+	font-size: 18px;
+	height: 30px;
+	top: 0px;
+}
+
+#Footer{
+	color: #FDFBCA;
+	text-align: right;
+	font-size: 10px;
+	
+	height: 15px;
+	bottom: 0px;
+}
+
+#Header, #Footer{
+	position: fixed;
+	background-color: #422A05;
+	width: 100%; 
+	margin: 0px;
+	border: 0px;
+	overflow: hidden;
+	z-index: 1;
+}
+
+/*MENU*/
+.Menu li a:link, .Menu li a:visited, .Options a:link, .Options a:visited{
+	background-color: #422A05;
+    color: #FDFBCA;
+}
+
+li.CurrentTab a:link , li.CurrentTab a:visited{
+	background-color: #FDFBCA;
+    color: #422A05;
+}
+
+.Menu li a:hover, .Options a:hover { 
+	background-color: #FFDF3B;
+    color: #422A05;
+}
+
+.Menu ol {
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    
+}
+
+.Menu li, .Menu li a, .Options a{
+	display: inline;
+	list-style-type: none;
+	text-decoration: none;  
+	padding: 10px;
+	width: 100px;
+}
+
+#Header .Menu ol {
+    height: 30px;    
+}
+
+#Header .Menu li, .Menu li a{
+	line-height:30px; 
+	height: 30px;
+}
+
+#Footer .Menu ol {
+    height: 15px;    
+}
+
+#Footer .Menu li, .Menu li a{
+	line-height:15px; 
+	height: 15px;
+}
+
+.Menu img{
+	height: 20px;
+	width: 20px;
+}
+
+#Sidebar{
+	width: 300px;
+	position: fixed;
+	left: 800px;
+	top: 20px;
+	padding: 0px;
+	margin: 0px;
+	z-index: 1;
+}
+
+#Main{
+	width: 95%;
+	position: absolute;
+	left: 10px;
+	top: 20px;
+	padding: 0;
+	margin: 0;
+	z-index: 0;
+}
+
+.Info {
+    background-color: #FFFFFF;
+    opacity: 0.5;
+    padding: 0;
+    margin-bottom: 30px;
+}
+.Info:hover{
+	background-color: #FFFFFF;
+    opacity: 0.9;
+}
+
+h4{
+	font-size: 18px;
+}
+
+.Options{
+	height: 30px;
+	border-width: 20px;
+	padding: 10px;
+	margin:10px;
+	border-radius: 10px;
+}

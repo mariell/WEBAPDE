@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>
+			Home
+		</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript">
+			function verify(){
+				var firstname = document.getElementById("first-name").value;
+				var lastname = document.getElementById("last-name").value;
+				var pass1 = document.getElementById("pass1").value;
+				var pass2 = document.getElementById("pass2").value;
+				var email = document.getElementById("email").value;
+
+				if (firstname == ""){
+					document.getElementById("first-name").className = "InvalidInput";
+				}
+
+				if (lastname == ""){
+					document.getElementById("last-name").className = "InvalidInput";
+				}
+
+				if (pass1=="" || pass1 != pass2){
+					document.getElementById("pass1").className = "InvalidInput";
+				}
+				if (pass2=="" || pass1 != pass2){
+					document.getElementById("pass2").className = "InvalidInput";
+				}
+				if (email=="" || ){
+					document.getElementById("email").className = "InvalidInput";
+				}
+			}
+
+		</script>
+	</head>
+
+	<body>
+		
+		<div id="Header">
+			<div class="Menu">
+				<ol>
+					<li class="CurrentTab"><a href="home.html"> Home </a></li>
+				</ol>
+			</div>
+		</div>
+
+		<div id="Main">
+			<div id="Form">
+				<header>
+					<h4>
+						Create a New Account
+					</h4>
+				</header>
+				<form id = "CForm">
+					<label>First Name:</label>
+					<input type="text" name="first-name" id="first-name" autofocus required>
+					<br/>
+					<label>Last Name:</label>
+					<input type="text" name="first-name" id="first-name" autofocus required>
+					<br/>
+					<label>Username:</label>
+					<input type="text" name="username" id="username" autofocus required>
+					<br/>
+					<label>Password:</label>
+					<input type="password" name = "pass1" id="pass1" class = "password" size="25">
+					<br/>
+					<label>Confirm Password:</label>
+					<input type="password" name = "pass2" id="pass2" class="password" size="25">
+					<br/>
+					<label>Email:</label>	
+					<input type="text" name="email" id="email" autofocus required>
+					<br/>
+
+					<button onclick='verify();'> 
+						Submit
+					</button>
+				</form>
+			</div>
+		</div>
+
+		<div id = "Footer" class = "Menu">
+			<ol>
+				<li><a href="http://modernuiicons.com/" class="menulink" target="_blank">Icons (c) http://modernuiicons.com/</a></li>
+			</ol>
+		</div>
+	</body>
+</html>
