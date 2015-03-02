@@ -142,14 +142,29 @@ th, td{
     color: #FDFBCA;
 }
 
-#AddClass, #DeleteClass{
+select{
+	margin: 10px;
+	padding:10px;
+	border: 0px;
+	text-decoration:none;
+	background-color: #FDFBCA;
+    color: #422A05;
+}
+#AddClass{
 	margin-top:30px;
 	margin-right: 30px;
+	padding: 10px;
+	width: 50%;
+	display: inline-block;
+}
+
+#DeleteClass{
+	margin-top:30px;
 	padding: 10px;
 	width: 40%;
 	display: inline-block;
 }
 
 #Schedule{
-	
+
 }
