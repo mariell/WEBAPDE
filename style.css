@@ -3,8 +3,8 @@ body{
 	font: 12px "Trebuchet MS", Helvetica, sans-serif;
 	padding: 0;
 	margin: 0;
-}
 /*HEADERS AND FOOTERS*/
+}
 #Header{
 	font-size: 18px;
 	height: 30px;
@@ -31,7 +31,7 @@ body{
 }
 
 /*MENU*/
-.Menu li a:link, .Menu li a:visited, .Options a:link, .Options a:visited{
+.Menu li a:link, .Menu li a:visited, .Options a:link, .Options a:visited, table th{
 	background-color: #422A05;
     color: #FDFBCA;
 }
@@ -41,7 +41,7 @@ li.CurrentTab a:link , li.CurrentTab a:visited{
     color: #422A05;
 }
 
-.Menu li a:hover, .Options a:hover { 
+.Menu li a:hover, .Options a:hover, .Button:hover { 
 	background-color: #FFDF3B;
     color: #422A05;
 }
@@ -127,13 +127,18 @@ h4{
 	border-radius: 10px;
 }
 
-table th{
-	background-color: green;
-    color: white;
-}
-
 th, td{
 	width: 120px;
 	height: 50px;
 	text-align: center;
+}
+
+.Button{
+	margin: 10px;
+	padding:10px;
+	background-color: #dcdcdc;
+	border: 0px;
+	text-decoration:none;
+	background-color: #422A05;
+    color: #FDFBCA;
 }
