@@ -41,7 +41,7 @@ li.CurrentTab a:link , li.CurrentTab a:visited{
     color: #422A05;
 }
 
-.Menu li a:hover, .Options a:hover, .Button:hover { 
+.Menu li a:hover, .Options a:hover, .Button:hover, button:hover { 
 	background-color: #FFDF3B;
     color: #422A05;
 }
@@ -133,12 +133,23 @@ th, td{
 	text-align: center;
 }
 
-.Button{
+.Button, button{
 	margin: 10px;
 	padding:10px;
-	background-color: #dcdcdc;
 	border: 0px;
 	text-decoration:none;
 	background-color: #422A05;
     color: #FDFBCA;
+}
+
+#AddClass, #DeleteClass{
+	margin-top:30px;
+	margin-right: 30px;
+	padding: 10px;
+	width: 40%;
+	display: inline-block;
+}
+
+#Schedule{
+	
 }
