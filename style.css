@@ -41,7 +41,7 @@ li.CurrentTab a:link , li.CurrentTab a:visited{
     color: #422A05;
 }
 
-.Menu li a:hover, .Options a:hover, .Button:hover, button:hover { 
+.Menu li a:hover, .Options a:hover, .Button:hover, button:hover{ 
 	background-color: #FFDF3B;
     color: #422A05;
 }
