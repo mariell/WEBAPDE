@@ -31,7 +31,7 @@ body{
 }
 
 /*MENU*/
-.Menu li a:link, .Menu li a:visited, .Options a:link, .Options a:visited, table th{
+.Menu li a:link, .Menu li a:visited, .Options a:link, .Options a:visited, .Options, table th{
 	background-color: #422A05;
     color: #FDFBCA;
 }
@@ -41,7 +41,7 @@ li.CurrentTab a:link , li.CurrentTab a:visited{
     color: #422A05;
 }
 
-.Menu li a:hover, .Options a:hover, .Button:hover, button:hover{ 
+.Menu li a:hover, .Options a:hover, .Button:hover, button:hover, .Options:hover{ 
 	background-color: #FFDF3B;
     color: #422A05;
 }
